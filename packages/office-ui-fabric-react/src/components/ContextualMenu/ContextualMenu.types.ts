@@ -127,6 +127,12 @@ export interface IContextualMenuProps extends React.Props<ContextualMenu>, IWith
   shouldFocusOnMount?: boolean;
 
   /**
+   * Whether to focus the menu container first or set focus to the first focusable menu item directly
+   * @default true
+   */
+  shouldFocusMenuContainer?: boolean;
+
+  /**
    * Callback when the ContextualMenu tries to close. If dismissAll is true then all
    * submenus will be dismissed.
    */
