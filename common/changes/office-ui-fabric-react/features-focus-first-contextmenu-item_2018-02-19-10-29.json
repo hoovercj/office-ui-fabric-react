@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "office-ui-fabric-react",
+      "comment": "Add 'shouldFocusMenuContainer' property defaulted to true in ContextMenuItem",
+      "type": "minor"
+    }
+  ],
+  "packageName": "office-ui-fabric-react",
+  "email": "cohoov@microsoft.com"
+}
